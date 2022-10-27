@@ -11,7 +11,7 @@ image = image / 255
 X_img = np.reshape(image, (image.shape[0]*image.shape[1], 3))
 
 #initial_centroids = np.array([[3,3],[6,2],[8,5]])
-K = 16
+K = 3
 
 class KMeansClustering:
     def __init__(self, X, K, iterations=10):
